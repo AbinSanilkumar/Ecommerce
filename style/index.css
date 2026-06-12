@@ -108,6 +108,15 @@ a {
     margin: 20px;
 }
 
+.box1 {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.box1 h2 {
+    display: inline-block;
+}
+
 .im {
     margin-top: 10px;
     transition: transform 0.3s ease;
@@ -132,19 +141,20 @@ a {
 .row4 {
     background: radial-gradient(#fff,#ffd6d6);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
+    gap: 80px;
     flex-wrap: wrap;
 }
 
 .row4 .right {
-    margin-right: 20px;
+    margin-right: 0;
     text-align: center;
 }
 
 .row4 .left {
-    margin-left: 20px;
+    margin-left: 0;
 }
 
 .Watch {
@@ -206,22 +216,69 @@ a {
 /* Footer */
 .foot {
     background-color: black;
-    padding: 40px;
+    height: auto;
+}
+
+.box {
+    margin: 60px;
+    display: inline-block;
+    list-style-type: none;
     text-align: center;
 }
 
-.foot .box {
-    margin: 20px;
-    display: inline-block;
+.box .p {
+    color: white;
+    opacity: 0.3;
 }
 
-.foot .box .p, .foot .box .lis, .pr {
+.box .h {
     color: white;
-    opacity: 0.7;
+    margin-bottom: 30px;
 }
 
-.foot .da, .foot .h {
+.box .lis {
+    list-style-type: none;
     color: white;
+    opacity: 0.3;
+}
+
+.box .white {
+    margin-bottom: 40px;
+}
+
+.box .app {
+    margin-top: 10px;
+    position: relative;
+    right: 92px;
+    opacity: 0.5;
+}
+
+.box .app:hover {
+    opacity: 1;
+}
+
+.box .da {
+    color: white;
+    position: relative;
+    right: 92px;
+    margin-bottom: 30px;
+}
+
+.line {
+    height: 2px;
+    width: 1350px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pr {
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Responsive design */
